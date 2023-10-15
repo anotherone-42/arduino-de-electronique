@@ -1,4 +1,3 @@
-//Made by Matthieu et coaché par Pierre
 //Version finale du 29/06/2020
 
 //déclaration des pins associés aux bouton au aux led verte et rouge
