@@ -1,21 +1,39 @@
 //Version finale du 29/06/2020
 
-//déclaration des pins associés aux bouton au aux led verte et rouge
+//déclaration des pins associés aux bouton et aux led verte et rouge
 int bouton=8;
 int ledv=11;
 int ledr=12;
 
 int dureeCli=75; //temps d'affichage entre l'allumage de deux segments
 
-//declaration des pin digitaux utilisés pour les segs A,B,C,D,E,F,G,DP. Exemple, PinSeg[2]=4 veut dire "le seg C est piloté par le pin 4"
+/*
+        ___A___
+       |       |
+      F|       |B
+       |___G___|
+       |       |
+      E|       |C
+       |       |
+        ___D___
+                  ° DP
+Schéma représentant les segments de l'affichage 1106BW
+
+
+Declaration des pins digitaux utilisés pour les segments A,B,C,D,E,F,G,DP.
+*/
 int PinSeg[8]={7,6,4,2,3,9,10,5};
-//             0 1 2 3 4 5  6 7  : index du tableau (quelle case à aller chercher)
 //             A B C D E F  G DP
 
-//déclaration de l'etat des pin à allumer en fonction du chiffre indiqué dans le nom du tab (chfr0 décrit l'etat des pin pour afficher 0)
-//chaque état d'un pin correspond à un seg (dans l'ordre a,b,c...le seg dp n'est pas traité)
-//Les états des segments sont ''inversés'' donc LOW correspond au seg allumé. Refférence de l'afficheur 8 segments: 1106BW
-//C'est un afficheur de type anode commune
+//Exemple, PinSeg[2]=4 veut dire "le segment C est piloté par le pin 4 de l'arduino Uno"
+
+
+/*
+Déclaration de l'etat des pin à allumer en fonction du chiffre indiqué dans le nom du tab (chfr0 décrit l'etat des pins pour afficher 0)
+Chaque état d'un pin correspond à un segment (dans l'ordre a,b,c...le seg dp n'est pas traité)
+Les états des segments est "inversé" donc LOW correspond au segment allumé. Refférence de l'afficheur 8 segments: 1106BW
+C'est un afficheur de type anode commune
+*/
 boolean chfr0[7]={LOW,LOW,LOW,LOW,LOW,LOW,HIGH};
 boolean chfr1[7]={HIGH,LOW,LOW,HIGH,HIGH,HIGH,HIGH};
 boolean chfr2[7]={LOW,LOW,HIGH,LOW,LOW,HIGH,LOW};
@@ -36,12 +54,13 @@ void setup(){
   for (int i=0;i<=7;i++)//ou i=i+1 
       {     
           pinMode(PinSeg[i],OUTPUT);
-          digitalWrite(PinSeg[i], HIGH); //les éteinds  => les segs sont ''inversés'' => anode commune
+          digitalWrite(PinSeg[i], HIGH); //les éteints  => les segments sont "inversés" => anode commune
       }
         pinMode(ledv,OUTPUT);
         pinMode(ledr,OUTPUT);
         pinMode(bouton,INPUT);
-        digitalWrite(ledv,HIGH); 
+        digitalWrite(ledv,HIGH);
+        //déclaration des leds,bouton, et allume la led
 }
 
 
@@ -50,7 +69,7 @@ if (digitalRead(bouton)==HIGH){
   
   digitalWrite(ledv,LOW);
   digitalWrite(ledr,HIGH);
-  
+  //si le bouton est appuyé, on éteint la led verte et on allume la rouge
 
   int nbAlea=random(1,7); //construit le nombre aléatoire de 1 à 6
 
