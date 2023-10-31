@@ -8,7 +8,7 @@ Pour ce projet, j'ai utilisé:
 - deux leds (notées ledv et ledr dans le programme),
 - un bouton,
 - un afficheur type 7 segments 1106BW.
-- 8 résistances de 47k Ohms
+- 8 résistances de 4,7k Ohms
 
 Fonctionement du dé:
 [YouTube](https://www.youtube.com/watch?v=D3Z2h9wa29A)
