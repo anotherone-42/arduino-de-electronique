@@ -1,4 +1,6 @@
-# arduino-de-electronique
+# arduino-de-electronique  
+BTC adress for donations: bc1qldzadlm29m520xqfg0qwgepk3d5ltdkrknzfnk  
+
 Arduino, programme pour apprendre à coder un dé digital.
 
 Ce programme s'adresse aux plus novices, il permet de générer un nombre aléatoire entre 1 et 6 apres avoir appuyé sur un bouton et ensuite l'afficher, apres un certain délai sur un afficheur 7 segments. Entre l'appui sur le bouton et l'affichage, un clignotement a été prévu pour simuler le roulement du dé au sol. 
