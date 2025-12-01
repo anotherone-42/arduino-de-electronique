@@ -14,7 +14,5 @@ For this project, I used:
   
 How the die works:  
 [vimeo](https://player.vimeo.com/video/1079563685?h=a48b0efd05&amp;title=0&amp)  
-
-<img width="1025" height="637" alt="image" src="https://github.com/user-attachments/assets/b378cd71-aee3-4ee5-95e5-50c77ee6a09c" />
   
 ![Screenshot](IMG_20200630_115815.jpg)
