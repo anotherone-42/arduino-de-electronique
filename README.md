@@ -10,7 +10,7 @@ For this project, I used:
 - two LEDs (noted ledv and ledr in the program),  
 - a button,  
 - a 7-segment display type 1106BW.  
-- 8 resistors of 4.7k Ohms  
+- 10 resistors of 4.7k Ohms  
   
 How the die works:  
 [vimeo](https://player.vimeo.com/video/1079563685?h=a48b0efd05&amp;title=0&amp)  
