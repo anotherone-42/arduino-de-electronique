@@ -1,4 +1,4 @@
-<img width="546" height="724" alt="image" src="https://github.com/user-attachments/assets/ebf3a513-1b69-41cd-82ba-7c926b820cd9" /># arduino-de-electronique
+# arduino-de-electronique
 XMR address for donations: 4AJtFkiynSSiRrzcNeD2PkhRnLvd35zPt1PCng5NCDfAExn9cZ9jPnY6Bc3RkadLPLEyMCa7aWcXyL725mmrZ3BcNdSCYuH  
   
 Arduino, program to learn how to code a digital die.  
