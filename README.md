@@ -1,4 +1,4 @@
-# arduino-de-electronique
+<img width="546" height="724" alt="image" src="https://github.com/user-attachments/assets/ebf3a513-1b69-41cd-82ba-7c926b820cd9" /># arduino-de-electronique
 XMR address for donations: 4AJtFkiynSSiRrzcNeD2PkhRnLvd35zPt1PCng5NCDfAExn9cZ9jPnY6Bc3RkadLPLEyMCa7aWcXyL725mmrZ3BcNdSCYuH  
   
 Arduino, program to learn how to code a digital die.  
@@ -15,6 +15,7 @@ For this project, I used:
 How the die works:  
 [vimeo](https://player.vimeo.com/video/1079563685?h=a48b0efd05&amp;title=0&amp)  
 
-<img width="1127" height="768" alt="Capture d&#39;écran 2025-12-01 223407" src="https://github.com/user-attachments/assets/cd10df5e-a467-45d8-afa1-9bddd92215e1" />
+<img width="546" height="724" alt="cablage" src="https://github.com/user-attachments/assets/e7d60610-277b-4a6a-99dd-25864dbbbafe" />
+
 
 ![Screenshot](IMG_20200630_115815.jpg)
