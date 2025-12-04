@@ -15,4 +15,4 @@ For this project, I used:
 How the die works:  
 [vimeo](https://player.vimeo.com/video/1079563685?h=a48b0efd05&amp;title=0&amp)  
 
-<img width="546" height="724" alt="cablage" src="https://github.com/user-attachments/assets/e7d60610-277b-4a6a-99dd-25864dbbbafe" />
+<img width="700" height="675" alt="Capture d&#39;écran 2025-12-04 173438" src="https://github.com/user-attachments/assets/5b26f736-cb01-406f-88da-f0bb5f94440d" />
