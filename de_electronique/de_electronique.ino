@@ -23,7 +23,7 @@ Diagram representing the segments of the 1106BW display
 Declaration of the digital pins used for the segments A, B, C, D, E, F, G, DP.
 */
 int PinSeg[8] = {7, 6, 4, 2, 3, 9, 10, 5};
-//             A B C D E F  G DP
+//               A  B  C  D  E  F  G   DP
 
 // Example: PinSeg[2] = 4 means "segment C is controlled by pin 4 of the Arduino Uno"
 
